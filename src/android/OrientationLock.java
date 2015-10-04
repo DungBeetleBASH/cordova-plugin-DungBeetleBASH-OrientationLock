@@ -18,7 +18,7 @@ public class OrientationLock extends CordovaPlugin {
     return false;
   }
 
-  private void setOrientation(orientation) {
+  private void setOrientation(String orientation) {
     Activity activity = cordova.getActivity();
     if (orientation.equalsIgnoreCase("landscape")) {
       activity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
