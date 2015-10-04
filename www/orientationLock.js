@@ -5,7 +5,7 @@ var exec = require('cordova/exec');
  */
 
 module.exports = {
-	setOrientation: function(orientation){
+	setOrientation: function(orientation) {
 		exec(null, null, "OrientationLock", "setOrientation", [orientation]);
 	}
 };

@@ -19,7 +19,7 @@
         <source-file src="src/android/OrientationLock.java" target-dir="src/com/DungBeetleBASH/OrientationLock/" />
 
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="Orientation">
+            <feature name="OrientationLock">
                 <param name="android-package" value="com.DungBeetleBASH.OrientationLock" />
             </feature>
         </config-file>
