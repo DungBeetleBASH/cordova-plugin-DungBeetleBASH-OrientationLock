@@ -9,8 +9,7 @@
     <keywords>DungBeetleBASH, Orientation</keywords>
     <repo>https://github.com/DungBeetleBASH/cordova-plugin-DungBeetleBASH-OrientationLock.git</repo>
 
-    <js-module src="www/orientationLock.js" name="orientation">
-        <merges target="com.DungBeetleBASH.OrientationLock" />
+    <js-module src="www/orientationLock.js" name="OrientationLock">
     </js-module>
 
     <!-- android -->
